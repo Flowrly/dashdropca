@@ -23,7 +23,7 @@ body, html{
     float: left;
 }
 #txthead1{
-    color: #26A69A; /**Main color*/
+    color: #FFF419; /**Main color*/
     font-size: 450%;
     font-weight: 200;
     letter-spacing: 5px;
@@ -43,7 +43,7 @@ body, html{
     text-decoration: none;
 }
 #txthead2{
-    color: #26A69A;
+    color: #E8C70C;
     font-size: x-large;
     letter-spacing: 5px;
     padding-left: 20px;
@@ -63,7 +63,7 @@ body, html{
     color: white;
     font-weight: 700;
     padding-top: 200px;
-    color: #04CCBD
+    color: #FFF419
 }
 #txt2{
     text-align: center;
@@ -211,7 +211,7 @@ body, html{
 }
 .button2 {
   border-radius: 4px;
-  background-color: #259D92;
+  background-color: #FFF419;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -375,7 +375,7 @@ body, html{
   transition: 0.5s;
 }
 .nav1 a span:after {
-  content: 'drop';
+  content: 'ly';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -458,7 +458,7 @@ body, html{
   padding-right: 40px;
 }
 .nav1:hover a span {
-  padding-right: 160px;
+  padding-right: 55px;
 }
 .text:hover a span {
   padding-right: 100px;
