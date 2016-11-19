@@ -1,4 +1,4 @@
 # flowr.ly
-Product Name: DashDrop
+Product Name: flowrly
 
 Description: The most radical way to deliver
