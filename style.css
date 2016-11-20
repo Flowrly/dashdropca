@@ -242,14 +242,14 @@ html {
 
 .button4 {
     border-radius: 4px;
-    background-color: #259D92;
+    background-color:#FF9A1E;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
     font-weight: 300;
     padding: 20px;
-    width: 200px;
+    width: 250px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -385,7 +385,7 @@ html {
 }
 
 .nav1 a span:after {
-    content: 'ly';
+    content: '';
     position: absolute;
     opacity: 0;
     top: 0;
@@ -588,6 +588,7 @@ html {
     border-radius: 50%
 }
 
+
 .text {
     font-family: 'Roboto', sans-serif;
 }
@@ -768,6 +769,9 @@ input {
 
 p {
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    margin-bottom: 20px;
 }
 
 ol {
@@ -851,6 +855,7 @@ a:hover {
 }
 img{
     margin-top: 20px;
+    text-align: center;
 }
 
 #left1 {
@@ -872,4 +877,7 @@ img{
     width: 30%;
     margin-left: 10px;
     margin-top: 10px;
+}
+.floristemote {
+    text-align: center;
 }
