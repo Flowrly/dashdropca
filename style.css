@@ -1,38 +1,44 @@
-body, html{
+body,
+html {
     height: 100%;
     width: 100%;
-    margin:0;
-    padding:0;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.containerteam {
+    width: 1000px;
+    margin: auto;
 }
-.containerteam{
-  width: 1000px;
-  margin: auto;
-}
-#mask{
+
+#mask {
     position: relative;
     height: 100%;
 }
-.nav1{
+
+.nav1 {
     padding-top: 20px;
     padding-bottom: 20px;
     float: left;
 }
-#txthead1{
-    color: #FFF419; /**Main color*/
+
+#txthead1 {
+    color: #FFE74C;
+    /**Main color*/
     font-size: 450%;
     font-weight: 200;
     letter-spacing: 5px;
     padding-left: 20px;
     padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive;
     text-decoration: none;
 }
-#teamtxt{
+
+#teamtxt {
     color: #26A69A;
     font-size: 450%;
     font-weight: 300;
@@ -42,20 +48,23 @@ body, html{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
-#txthead2{
-    color: #E8C70C;
-    font-size: x-large;
+
+#txthead2 {
+    color: #FFE74C;
+    font-size: smaller;
     letter-spacing: 5px;
     padding-left: 20px;
     padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive;
     text-decoration: none;
 }
-.nav2{
+
+.nav2 {
     float: right;
     padding-top: 20px;
     padding-right: 20px;
 }
+
 #txt {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -63,18 +72,19 @@ body, html{
     color: white;
     font-weight: 700;
     padding-top: 200px;
-    color: #FFF419
+    color: #FFE74C;
 }
-#txt2{
+
+#txt2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     color: white;
     padding-top: 20px;
-
 }
-#txt3{
+
+#txt3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
@@ -82,116 +92,101 @@ body, html{
     color: white;
     padding-top: 20px;
     letter-spacing: 2px;
-
 }
-#Team{
+
+#Team {
     float: right;
 }
+
 .darken {
-  background: no-repeat center center fixed;
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-  url("assets/home1.jpg"); /***This is the background image****/
-  min-height: 100%;
-  min-width: 1024px;
-   position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+    background: no-repeat center center fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/home1.jpg");
+    /***This is the background image****/
+    min-height: 100%;
+    min-width: 1024px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
+
+
 /*@media screen and (max-width: 1024px) {
   .darken {
     left: 50%;
     margin-left: -512px;   /* 50% 
   }
 }*/
+
 .darkensend {
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-  url("assets/send.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/send.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
+
 .darkendeliver {
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-  url("assets/deliver.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/deliver.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
+
 .darkenteam {
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-  url("assets/team.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/team.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
+
 .darkenfaq {
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-  url("assets/faq.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/faq.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
-.buttons{
+
+.buttons {
     text-align: center;
     margin-top: 20px;
-
 }
-.signupbutton{
+
+.signupbutton {
     text-align: center;
     margin-top: 20px;
-
 }
+
 .button1 {
-  border-radius: 4px;
-  background-color: #259D92;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.gettext{
-  border-radius: 2px;
+
+.gettext {
+    border-radius: 2px;
     height: 62px;
     float: left;
     position: relative;
@@ -200,426 +195,483 @@ body, html{
     margin-top: 30px;
     background-color: white;
 }
-.userphone{
-  border: 0px;
+
+.userphone {
+    border: 0px;
     color: black;
     font-size: 24px;
     font-family: 'Roboto'. sans-serif;
     padding-top: 10px;
     padding-left: 5px;
-    
 }
+
 .button2 {
-  border-radius: 4px;
-  background-color: #FFF419;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #FF9A1E;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .button3 {
-  border-radius: 4px;
-  background-color: #259D92;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 35s0px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 35s0px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .button4 {
-  border-radius: 4px;
-  background-color: #259D92;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .button5 {
-  border-radius: 4px;
-  background-color: #259D92;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 275px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 275px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .button6 {
-  border-radius: 4px;
-  background-color: #259D92;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  width: 275px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+    width: 275px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 .button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
+
 .nav1 a span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
+
 .text a span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
-}
-.text1 a span{
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
-}
-.text2 a span{
     cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
-.text3 a span{
+
+.text1 a span {
     cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.text2 a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.text3 a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
 
 .button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
+
 .button3 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+
 .button4 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+
 .button5 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+
 .button6 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+
 .button1 span:after {
-  content: url("assets/store.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/store.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .nav1 a span:after {
-  content: 'ly';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
+    content: 'ly';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
 }
+
 .text a span:after {
-  content: url("assets/toluicon.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
+    content: url("assets/toluicon.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
 }
-.text1 a span:after{
-  content: url("assets/hanicon.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
+
+.text1 a span:after {
+    content: url("assets/hanicon.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
 }
-.text2 a span:after{
+
+.text2 a span:after {
     content: url("assets/macicon.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
 }
-.text3 a span:after{
+
+.text3 a span:after {
     content: url("assets/meinaicon.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
 }
+
 .button2 span:after {
-  content: url("assets/bicycle.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/bicycle.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .button3 span:after {
-  content: url("assets/money.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/money.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .button4 span:after {
-  content: url("assets/handshake.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/handshake.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .button5 span:after {
-  content: url("assets/faq.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/faq.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .button6 span:after {
-  content: url("assets/bizpat.png");
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: url("assets/bizpat.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 .button1:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
+    font-weight: 300;
 }
+
 .nav1:hover a span {
-  padding-right: 55px;
+    padding-right: 60px;
 }
+
 .text:hover a span {
-  padding-right: 100px;
+    padding-right: 100px;
 }
+
 .text1:hover a span {
-  padding-right: 100px;
+    padding-right: 100px;
 }
-.text2:hover a span{
-     padding-right: 100px;
+
+.text2:hover a span {
+    padding-right: 100px;
 }
+
 .text3:hover a span {
-  padding-right: 100px;
+    padding-right: 100px;
 }
+
 .button2:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
 }
+
 .button3:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
 }
+
 .button4:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
 }
 
 .button5:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
 }
+
 .button6:hover span {
-  padding-right: 40px;
+    padding-right: 40px;
 }
 
 .button1:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .nav1:hover a span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .text:hover a span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .text1:hover a span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .text2:hover a span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .text3:hover a span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 .button2:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .button3:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .button4:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .button5:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
+
 .button6:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
-.photo{
-    padding-left:100px;
+
+.photo {
+    padding-left: 100px;
     padding-top: 20px;
 }
-.photo img{
+
+.photo img {
     background-image: url("assets/tolu.jpg");
     background-repeat: no-repeat;
-     height: 150px;
+    height: 150px;
     width: 150px;
     float: left;
     border-radius: 50%
-
 }
-.text{
+
+.text {
     font-family: 'Roboto', sans-serif;
 }
-.text3{
-  margin-bottom: 70px;
+
+.text3 {
+    margin-bottom: 70px;
 }
-#teamdesc{
+
+#teamdesc {
     padding-left: 286px;
     padding-top: 10px;
     width: 500px;
     font-family: 'Roboto', sans-serif;
 }
-.dashbody{
+
+.dashbody {
     height: 100%;
-}.deliv1{
-  width: 800px;
-  margin: auto;
-  height: inherit;
 }
-.delivtxt{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 3em;
-  color: #484848;
+
+.deliv1 {
+    width: 800px;
+    margin: auto;
+    height: inherit;
 }
-#delivsubtext{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 2em;
-  color: #484848;
-  padding-bottom: 10px;
+
+.delivtxt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3em;
+    color: #484848;
+}
+
+#delivsubtext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+    color: #484848;
+    padding-bottom: 10px;
     margin-right: 100px;
     margin-left: 100px;
+}
 
+.delivtxtlower {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+    color: #484848;
+    letter-spacing: 0.3em;
 }
-.delivtxtlower{
-   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  text-align: center;
-  padding: 25px;
-  font-size: 2em;
-  color: #484848;
-  letter-spacing: 0.3em;
+
+#delivstep {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    color: #484848;
 }
-#delivstep{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  padding: 50px;
-  padding-bottom: 0px;
-  text-align: center;
-  float: left;
-  font-size: 30px;
-  color: #484848;
+
+#delivstep1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.7em;
+    color: #484848;
 }
-#delivstep1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  padding: 10px;
-  text-align: center;
-  font-size: 0.7em;
-  color: #484848;
+
+.teambody {
+    height: 100%;
 }
-.teambody{
-  height: 100%;
-}
+
+
 /*.footer{
    width:100%;
    height:60px;   /* Height of the footer
@@ -629,44 +681,53 @@ body, html{
     z-index: 10;
     margin-top: -3em;
 }*/
-#android{
-  height: 44px;
+
+#android {
+    height: 44px;
     width: 150px;
 }
-#apple{
-  width: 150px;
-  padding-left: 0px;
+
+#apple {
+    width: 150px;
+    padding-left: 0px;
 }
-#twitter{
+
+#twitter {
     margin-left: 286px;
     padding-top: 20px;
 }
-#linkedin{
-  margin-left: 10px;
+
+#linkedin {
+    margin-left: 10px;
     padding-top: 20px;
-}
-#email{
-   margin-left: 10px;
-    padding-top: 20px;
-  
-  }
-.badges{
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
 }
 
+#email {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.badges {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
 /*text box*/
+
 input {
     display: block;
     box-sizing: border-box;
 }
-.delivform{
- display: inline-block;
- text-align: center;
-  padding-top: 50px;
+
+.delivform {
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
 }
-.delivtxtbox{
+
+.delivtxtbox {
     width: 300px;
     padding: 12px 20px;
     border: 1px solid #ccc;
@@ -674,59 +735,140 @@ input {
     display: block;
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
-  color: #484848
-  font-size: 100%;
-  font-weight: bold;
+    color: #484848 font-size: 100%;
+    font-weight: bold;
 }
-.list{
-  width: 66.66667%;
-      float: left;
-      margin-left: 200px;
-      clear: none;
-      padding-left: 5px;
-      padding-right: 5px;
-      padding-left: 0;
+
+.list {
+    width: 66.66667%;
+    float: left;
+    margin-left: 200px;
+    clear: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-left: 0;
 }
-.subheader{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 3em;
-  padding-left: 20px;
-  color: #26A69A;
+
+.subheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    padding-left: 20px;
+    color: #26A69A;
 }
-.subheaderscroll{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 2em;
-  padding-left: 20px;
-  color: #484848;
+
+.subheaderscroll {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    padding-left: 20px;
+    color: #484848;
 }
-p{
-  color: black;
+
+p {
+    color: black;
 }
-ol{
-  list-style: decimal outside;
-  font-family: 'Roboto', sans-serif;
-  color: black;
+
+ol {
+    list-style: decimal outside;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
-li{
-  padding-bottom: 20px;
+
+li {
+    padding-bottom: 20px;
 }
-a{
-  text-decoration: none;
-  color: #04CCBD;
-  font-size: larger;
+
+a {
+    text-decoration: none;
+    color: #04CCBD;
+    font-size: larger;
 }
-a:hover{
-  text-decoration: underline;
+
+a:hover {
+    text-decoration: underline;
 }
-#aboutq{
-  color: #04CCBD;
+
+#aboutq {
+    color: #04CCBD;
 }
-.backtotop{
-  position: fixed;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  padding-left: 20px;
-  padding-top: 20px;
+
+.backtotop {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.priceplan {
+    width: 377px;
+    height: 700px;
+    border: 1px solid #E3E6E6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+    border-radius: 5px;
+    padding-bottom: 34px;
+    text-align: center;
+    color: #81878C;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.priceheader {
+    position: relative;
+    border-bottom: solid 1px #E8EBEB;
+    margin-bottom: 1em;
+    display: table;
+    width: 100%;
+}
+
+.priceheader h4 {
+    color: #2F363F;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0px;
+}
+
+.pricebody {}
+
+.priceprice {
+    font-size: 5rem;
+    color: #2F363F;
+    margin: 24px 0 0;
+    font-weight: 500;
+    line-height: 1em;
+    font-family: 'Pacifico', cursive;
+}
+
+.pricetext {
+    font-size: 1em;
+    color: #81878C;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+}
+img{
+    margin-top: 20px;
+}
+
+#left1 {
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 70px;
+}
+
+#right1 {
+    float: left;
+    width: 30%;
+    border: 2px solid #FFE74C;
+}
+
+#right2 {
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
 }
